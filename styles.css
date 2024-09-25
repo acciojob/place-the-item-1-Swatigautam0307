@@ -1,2 +1,21 @@
+/* styles.css */
+
+/* Set up the holder as a flex container */
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-between; /* Distribute items with equal space between them */
+    align-items: center; /* Vertically center items */
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Optional background color for the holder */
+}
+
+/* Style the individual items */
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px; /* Add spacing between items */
+    background-color: #3498db; /* Blue background color (you can change this) */
+}
 
 /* Your CSS Code here. */
